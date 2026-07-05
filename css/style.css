@@ -1831,3 +1831,164 @@ h1{
     }
 
 }
+
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media (max-width:768px){
+
+body{
+    overflow:hidden;
+}
+
+.slide{
+    width:100vw;
+    height:100vh;
+    padding:20px;
+    overflow:hidden;
+}
+
+/* Gift */
+
+.gift{
+    width:140px;
+    height:140px;
+}
+
+.gift-body{
+    width:140px;
+    height:95px;
+}
+
+.gift-lid{
+    width:150px;
+}
+
+h1{
+    font-size:34px;
+}
+
+.subtitle{
+    font-size:18px;
+}
+
+/* Slide 2 */
+
+.title1{
+    font-size:38px;
+}
+
+.title2{
+    font-size:24px;
+}
+
+.swipe-text{
+    font-size:16px;
+}
+
+/* Photos */
+
+.memory-photo{
+    width:170px;
+    height:230px;
+}
+
+/* Questions */
+
+.question{
+    font-size:22px;
+    line-height:1.4;
+}
+
+.button-group{
+    gap:15px;
+}
+
+.no-btn,
+.no-btn2,
+.yes-btn{
+    font-size:16px;
+    padding:12px 22px;
+}
+
+/* Birthday */
+
+.birthday-title{
+    font-size:46px;
+}
+
+.cake{
+    width:190px;
+}
+
+.cake-top{
+    width:190px;
+    height:120px;
+}
+
+/* Slide 7 */
+
+.gift-buttons{
+    width:100%;
+}
+
+.yes-run,
+.no-next{
+    font-size:18px;
+}
+
+/* Suspense */
+
+.suspense-text{
+    font-size:32px;
+}
+
+.par-text{
+    font-size:58px;
+}
+
+/* PAR */
+
+#typingPar{
+    font-size:58px;
+    letter-spacing:2px;
+}
+
+/* Final lines */
+
+.payoff-text .line{
+    font-size:28px;
+}
+
+.payoff-text .line:last-child{
+    font-size:34px;
+}
+
+/* Letter */
+
+.letter-box{
+    width:95%;
+    padding:20px;
+}
+
+.letter-box p{
+    font-size:18px;
+}
+
+/* Ending */
+
+.ending-photo{
+    width:220px;
+    height:220px;
+}
+
+.ending-title{
+    font-size:38px;
+}
+
+.ending-text{
+    font-size:20px;
+}
+
+}
