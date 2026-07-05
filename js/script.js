@@ -100,17 +100,45 @@ gift.addEventListener("click", () => {
 // SLIDE 2 → SLIDE 3
 // =========================
 
+function goToSlide3(){
+
+    if(slide2.style.display==="flex"){
+
+        slide2.style.display="none";
+        slide3.style.display="flex";
+        slide3.classList.add("show");
+
+    }
+
+}
+
+// Desktop keyboard
 document.addEventListener("keydown",(event)=>{
 
     if(event.key==="ArrowRight"){
 
-        if(slide2.style.display==="flex"){
+        goToSlide3();
 
-            slide2.style.display="none";
+    }
 
-            slide3.style.display="flex";
+});
 
-        }
+// Mobile swipe
+let touchStartX = 0;
+
+document.addEventListener("touchstart",(e)=>{
+
+    touchStartX = e.changedTouches[0].screenX;
+
+});
+
+document.addEventListener("touchend",(e)=>{
+
+    let touchEndX = e.changedTouches[0].screenX;
+
+    if(touchStartX - touchEndX > 50){
+
+        goToSlide3();
 
     }
 
