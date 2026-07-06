@@ -100,23 +100,13 @@ body{
 ========================= */
 
 .gift{
-
     position:relative;
-
     width:180px;
-
     height:180px;
-
     margin:40px 0;
-
     animation:floatGift 4s ease-in-out infinite;
-
-    transition:
-        transform .3s ease,
-        filter .3s ease;
-
+    transition:transform .3s ease, filter .3s ease;
     cursor:pointer;
-
 }
 
 .gift:hover{
@@ -169,32 +159,13 @@ body{
 }
 
 .gift-lid{
-
     position:absolute;
-
     top:35px;
-
     left:-6px;
-
     width:192px;
-
     height:34px;
-
     border-radius:12px;
-
-    background:linear-gradient(
-        to bottom,
-        #ffc4d8,
-        #ffabc7
-    );
-
-    box-shadow:
-        0 6px 12px rgba(0,0,0,.12);
-
-    z-index:5;
-
-    transform-origin: center bottom;
-
+    z-index:2;
 }
 
 /* =========================
@@ -202,26 +173,13 @@ body{
 ========================= */
 
 .gift-ribbon-vertical{
-
     position:absolute;
-
     left:50%;
     bottom:0;
-
     transform:translateX(-50%);
-
     width:22px;
     height:160px;
-
-    background:linear-gradient(
-        to right,
-        var(--ribbon-dark),
-        var(--ribbon-light),
-        var(--ribbon-dark)
-    );
-
-    z-index:1;
-
+    z-index:3;
 }
 
 .gift-ribbon-horizontal{
@@ -249,20 +207,12 @@ body{
 ========================= */
 
 .gift-bow{
-
     position:absolute;
-
     left:50%;
-
     top:-18px;
-
     transform:translateX(-50%);
-
     width:70px;
     height:40px;
-
-    z-index:2;
-
 }
 
 .gift:hover .gift-bow{
@@ -1866,19 +1816,12 @@ body{
 /* Gift */
 
 .gift{
-    width:180px;
-    height:180px;
-    transform: scale(0.78);
-    transform-origin:center;
+    transform:scale(0.75);
 }
 
 .gift-body{
     width:140px;
     height:95px;
-}
-
-.gift-lid{
-    width:150px;
 }
 
 h1{
