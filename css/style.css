@@ -1876,7 +1876,8 @@ body{
 }
 
 .gift-lid{
-    width:150px;
+    width:148px;
+    left:-4px;
 }
 
 h1{
@@ -1885,6 +1886,11 @@ h1{
 
 .subtitle{
     font-size:18px;
+}
+
+.gift-ribbon-vertical{
+    width:18px;
+    height:125px;
 }
 
 /* Slide 2 */
