@@ -191,7 +191,7 @@ body{
     box-shadow:
         0 6px 12px rgba(0,0,0,.12);
 
-    z-index:2;
+    z-index:5;
 
     transform-origin: center bottom;
 
@@ -220,7 +220,7 @@ body{
         var(--ribbon-dark)
     );
 
-    z-index:3;
+    z-index:1;
 
 }
 
@@ -1866,8 +1866,10 @@ body{
 /* Gift */
 
 .gift{
-    width:140px;
-    height:140px;
+    width:180px;
+    height:180px;
+    transform: scale(0.78);
+    transform-origin:center;
 }
 
 .gift-body{
@@ -1876,8 +1878,7 @@ body{
 }
 
 .gift-lid{
-    width:148px;
-    left:-4px;
+    width:150px;
 }
 
 h1{
@@ -1886,11 +1887,6 @@ h1{
 
 .subtitle{
     font-size:18px;
-}
-
-.gift-ribbon-vertical{
-    width:18px;
-    height:125px;
 }
 
 /* Slide 2 */
@@ -1951,11 +1947,24 @@ h1{
 
 .gift-buttons{
     width:100%;
+    height:260px;
+    position:relative;
+}
+
+.yes-run{
+    left:10%;
+    top:60px;
+}
+
+.no-next{
+    right:10%;
+    top:60px;
 }
 
 .yes-run,
 .no-next{
-    font-size:18px;
+    font-size:16px;
+    padding:12px 22px;
 }
 
 /* Suspense */
